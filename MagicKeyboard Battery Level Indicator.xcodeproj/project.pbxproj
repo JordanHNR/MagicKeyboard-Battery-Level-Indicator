@@ -22,6 +22,7 @@
 		174EE84C2A6516840096C6DC /* MagicKeyboard_Battery_Level_Indicator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagicKeyboard_Battery_Level_Indicator.entitlements; sourceTree = "<group>"; };
 		174EE8542A65177D0096C6DC /* BatteryLevelModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryLevelModelView.swift; sourceTree = "<group>"; };
 		174EE8562A6517A00096C6DC /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		174EE8582A65187F0096C6DC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		174EE8372A6516830096C6DC = {
 			isa = PBXGroup;
 			children = (
+				174EE8582A65187F0096C6DC /* README.md */,
 				174EE8422A6516830096C6DC /* MagicKeyboard Battery Level Indicator */,
 				174EE8412A6516830096C6DC /* Products */,
 			);
