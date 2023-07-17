@@ -8,10 +8,12 @@
 import SwiftUI
 
 @main
-struct MagicKeyboard_Battery_Level_IndicatorApp: App {
+struct Magic_Keyboard_Battery_IndicatorApp: App {
+    @StateObject private var batteryLevel = BatteryLevelVewModel(Device(8199))
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        let image_name : String = "battery.\(batteryLevel.batteryLevel)"
+        MenuBarExtra("\(batteryLevel.batteryLevel)", systemImage: image_name) {
         }
     }
 }

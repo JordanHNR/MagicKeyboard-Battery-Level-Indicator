@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		174EE8442A6516830096C6DC /* MagicKeyboard_Battery_Level_IndicatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EE8432A6516830096C6DC /* MagicKeyboard_Battery_Level_IndicatorApp.swift */; };
-		174EE8462A6516830096C6DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EE8452A6516830096C6DC /* ContentView.swift */; };
 		174EE8482A6516840096C6DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174EE8472A6516840096C6DC /* Assets.xcassets */; };
 		174EE84B2A6516840096C6DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174EE84A2A6516840096C6DC /* Preview Assets.xcassets */; };
+		174EE8552A65177D0096C6DC /* BatteryLevelModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EE8542A65177D0096C6DC /* BatteryLevelModelView.swift */; };
+		174EE8572A6517A00096C6DC /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174EE8562A6517A00096C6DC /* Device.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		174EE8402A6516830096C6DC /* MagicKeyboard Battery Level Indicator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MagicKeyboard Battery Level Indicator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		174EE8432A6516830096C6DC /* MagicKeyboard_Battery_Level_IndicatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicKeyboard_Battery_Level_IndicatorApp.swift; sourceTree = "<group>"; };
-		174EE8452A6516830096C6DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		174EE8472A6516840096C6DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		174EE84A2A6516840096C6DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		174EE84C2A6516840096C6DC /* MagicKeyboard_Battery_Level_Indicator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagicKeyboard_Battery_Level_Indicator.entitlements; sourceTree = "<group>"; };
+		174EE8542A65177D0096C6DC /* BatteryLevelModelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryLevelModelView.swift; sourceTree = "<group>"; };
+		174EE8562A6517A00096C6DC /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +54,9 @@
 		174EE8422A6516830096C6DC /* MagicKeyboard Battery Level Indicator */ = {
 			isa = PBXGroup;
 			children = (
+				174EE8532A65176A0096C6DC /* ViewModels */,
+				174EE8522A6517300096C6DC /* Models */,
 				174EE8432A6516830096C6DC /* MagicKeyboard_Battery_Level_IndicatorApp.swift */,
-				174EE8452A6516830096C6DC /* ContentView.swift */,
 				174EE8472A6516840096C6DC /* Assets.xcassets */,
 				174EE84C2A6516840096C6DC /* MagicKeyboard_Battery_Level_Indicator.entitlements */,
 				174EE8492A6516840096C6DC /* Preview Content */,
@@ -67,6 +70,22 @@
 				174EE84A2A6516840096C6DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		174EE8522A6517300096C6DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				174EE8562A6517A00096C6DC /* Device.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		174EE8532A65176A0096C6DC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				174EE8542A65177D0096C6DC /* BatteryLevelModelView.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +158,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				174EE8462A6516830096C6DC /* ContentView.swift in Sources */,
 				174EE8442A6516830096C6DC /* MagicKeyboard_Battery_Level_IndicatorApp.swift in Sources */,
+				174EE8552A65177D0096C6DC /* BatteryLevelModelView.swift in Sources */,
+				174EE8572A6517A00096C6DC /* Device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
